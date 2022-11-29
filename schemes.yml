@@ -1,0 +1,20 @@
+schemes:
+- RAW:
+    database:
+        - DEV
+    comment:
+        - contains raw data from our source systems
+    usage_roles:
+        - TRANSFORMER
+    all_roles:
+        - LOADER
+    
+- ANALYTICS:
+    database:
+        - DEV
+    comment:
+        - contains tables and views accessible to analysts and reporting
+    usage_roles:
+        ~
+    all_roles:
+        - TRANSFORMER

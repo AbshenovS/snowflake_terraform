@@ -1,0 +1,14 @@
+roles:
+- LOADER:
+    comment:
+        - Owns the tables in raw schema
+    users:
+        - HAVI
+    
+- TRANSFORMER:
+    comment:
+        - Has query permissions on tables in raw schema and owns tables in the analytics schema.
+    users:
+        - INIESTA
+        - PIQUE
+    

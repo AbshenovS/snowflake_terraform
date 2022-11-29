@@ -1,0 +1,30 @@
+users:
+- INIESTA:
+    login_name:
+        - MAC_DATAENGINEER@TEST.COM
+    role:
+        - TRANSFORMER
+    namespace:
+        - DEV.PUBLIC
+    warehouse:
+        - "TRANSFORMER_WH"
+    
+- PIQUE:
+    login_name:
+        - CHEESE_DATAENGINEER@TEST.COM
+    role:
+        - TRANSFORMER
+    namespace:
+        - DEV.PUBLIC
+    warehouse:
+        - TRANSFORMER_WH
+
+- HAVI:
+    login_name:
+        - STITCH_ANALYST@TEST.COM
+    role:
+        - LOADER
+    namespace:
+        - DEV.PUBLIC
+    warehouse:
+        - LOADER_WH
